@@ -7,7 +7,7 @@ const flash = require('connect-flash');
 const passport = require('passport');
 const helmet = require('helmet');
 const hpp = require('hpp');
-const RedisStore = require('connect-redis')(session);
+//const RedisStore = require('connect-redis')(session);
 require('dotenv').config();
 
 const pageRouter = require('./routes/page');
@@ -51,12 +51,12 @@ const sessionOption = {
         httpOnle: true,
         secure: false,
     },
-    store: new RedisStore({
-        host: process.env.REDIS_HOST,
-        port: process.env.REDIS_PORT,
-        pass: process.env.REDIS_PASSWORD,
-        logErrors: true,
-    }),
+    //store: new RedisStore({
+    //   host: process.env.REDIS_HOST,
+    //    port: process.env.REDIS_PORT,
+    //    pass: process.env.REDIS_PASSWORD,
+    //    logErrors: true,
+    //}),
 };
 
 if(process.env.NODE_ENV === 'production') {
