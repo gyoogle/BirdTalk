@@ -1,5 +1,5 @@
 # KakaoNode
-Node.js based SNS service project
+> 🙋 Node.js based SNS service project
 
 <br>
 
