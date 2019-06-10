@@ -4,13 +4,7 @@ const config = require('../config/config')[env];
 const db = {};
 
 const sequelize = new Sequelize(
-  config.database, config.username, config.password, config, {
-    pool: {
-      max: 15,
-      min: 5,
-      idle: 20000
-    },
-  }
+  config.database, config.username, config.password, config,
 );
 
 db.sequelize = sequelize;
