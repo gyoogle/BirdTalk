@@ -1,4 +1,4 @@
-# KakaoNode
+# BirdTalk
 > 🙋 Node.js based SNS service project
 
 <br>
