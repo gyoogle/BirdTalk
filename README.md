@@ -60,7 +60,7 @@ Express의 Sequelize를 활용한 데이터베이스 모델을 생성 및 모델
 
 ![main.JPG](https://github.com/kim6394/KakaoNode/blob/master/screenshot/main.JPG?raw=true)
 
-- 이미지 첨부와 글 작성
+- 이미지 첨부와 글 작성 (multer 라이브러리 활용)
 - 자신이 작성한 글만 삭제 가능
 - 다른 사람 팔로우하기/끊기
 - 태그를 통한 게시글 검색
